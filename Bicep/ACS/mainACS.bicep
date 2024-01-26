@@ -23,7 +23,7 @@ param experimentSteps array = [
           {
             type: 'continuous'
             selectorId: guid('Selector1')
-            duration: 'PT6M'
+            duration: experimentConfiguration.duration
             parameters: [
               {
                 key: 'jsonSpec'
