@@ -15,7 +15,7 @@ This project contains a pipeline that deploys all the previous components to an 
 - the Nginx Ingress Controller
 - the web app to be tested
 - Prometheus and Grafana to monitor the web app metrics
-- the Chaos Mesh to simulate random faults
+- the Chaos Mesh to simulate faults
 
 Finally creates and runs the JMeter load test and the Chaos Experiment during the load test, to cause really high CPU usage in your app pods.
 
